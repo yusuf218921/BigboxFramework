@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34112.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Core", "BigBoxFramework.Core\BigBoxFramework.Core.csproj", "{EC612BBC-B022-4AF0-BCF1-27020423ECBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.Entities", "BigBoxFramework.Northwind.Entities\BigBoxFramework.Northwind.Entities.csproj", "{DE46A799-900D-411D-ADFC-B6CD16ADFE75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.DataAccess", "BigBoxFramework.Northwind.DataAccess\BigBoxFramework.Northwind.DataAccess.csproj", "{88259FB6-45E3-4E2B-9DF6-DF15D4A29EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.Business", "BigBoxFramework.Northwind.Business\BigBoxFramework.Northwind.Business.csproj", "{1EBBE5AD-DB56-4170-9565-E5ED6E275D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.MvcWebUI", "BigBoxFramework.Northwind.MvcWebUI\BigBoxFramework.Northwind.MvcWebUI.csproj", "{A5541CCD-AE40-46BA-8386-A3F285E617A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.MvcWebUI.Tests", "BigBoxFramework.Northwind.MvcWebUI.Tests\BigBoxFramework.Northwind.MvcWebUI.Tests.csproj", "{696253DD-BD4A-4DF9-A28D-E26178F27234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.DataAccess.Tests", "BigBoxFramework.Northwind.DataAccess.Tests\BigBoxFramework.Northwind.DataAccess.Tests.csproj", "{ADE1CD5D-2BEB-42EC-B3C3-838D60787C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.Business.Tests", "BigBoxFramework.Northwind.Business.Tests\BigBoxFramework.Northwind.Business.Tests.csproj", "{3F7CF9AE-9293-4214-AA56-4D7FF7C62E69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.WebApi", "BigBoxFramework.Northwind.WebApi\BigBoxFramework.Northwind.WebApi.csproj", "{6253A1C8-56B7-47B1-9FB6-9F96881AF647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigboxFramework.Northwind.WcfService", "WcfService1\BigboxFramework.Northwind.WcfService.csproj", "{F336E442-1BA1-43C2-BF98-3FA93BF68737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC612BBC-B022-4AF0-BCF1-27020423ECBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC612BBC-B022-4AF0-BCF1-27020423ECBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC612BBC-B022-4AF0-BCF1-27020423ECBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC612BBC-B022-4AF0-BCF1-27020423ECBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE46A799-900D-411D-ADFC-B6CD16ADFE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE46A799-900D-411D-ADFC-B6CD16ADFE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE46A799-900D-411D-ADFC-B6CD16ADFE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE46A799-900D-411D-ADFC-B6CD16ADFE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88259FB6-45E3-4E2B-9DF6-DF15D4A29EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88259FB6-45E3-4E2B-9DF6-DF15D4A29EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88259FB6-45E3-4E2B-9DF6-DF15D4A29EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88259FB6-45E3-4E2B-9DF6-DF15D4A29EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBBE5AD-DB56-4170-9565-E5ED6E275D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBBE5AD-DB56-4170-9565-E5ED6E275D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBBE5AD-DB56-4170-9565-E5ED6E275D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBBE5AD-DB56-4170-9565-E5ED6E275D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5541CCD-AE40-46BA-8386-A3F285E617A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5541CCD-AE40-46BA-8386-A3F285E617A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5541CCD-AE40-46BA-8386-A3F285E617A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5541CCD-AE40-46BA-8386-A3F285E617A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696253DD-BD4A-4DF9-A28D-E26178F27234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696253DD-BD4A-4DF9-A28D-E26178F27234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696253DD-BD4A-4DF9-A28D-E26178F27234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696253DD-BD4A-4DF9-A28D-E26178F27234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE1CD5D-2BEB-42EC-B3C3-838D60787C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE1CD5D-2BEB-42EC-B3C3-838D60787C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE1CD5D-2BEB-42EC-B3C3-838D60787C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE1CD5D-2BEB-42EC-B3C3-838D60787C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7CF9AE-9293-4214-AA56-4D7FF7C62E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7CF9AE-9293-4214-AA56-4D7FF7C62E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7CF9AE-9293-4214-AA56-4D7FF7C62E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7CF9AE-9293-4214-AA56-4D7FF7C62E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6253A1C8-56B7-47B1-9FB6-9F96881AF647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6253A1C8-56B7-47B1-9FB6-9F96881AF647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6253A1C8-56B7-47B1-9FB6-9F96881AF647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6253A1C8-56B7-47B1-9FB6-9F96881AF647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F336E442-1BA1-43C2-BF98-3FA93BF68737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F336E442-1BA1-43C2-BF98-3FA93BF68737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F336E442-1BA1-43C2-BF98-3FA93BF68737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F336E442-1BA1-43C2-BF98-3FA93BF68737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0509EA9-64F2-4F35-8B51-62EF5A6A6EE6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\BigBoxFramework.Core.dll.config
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\BigBoxFramework.Core.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\BigBoxFramework.Core.pdb
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\EntityFramework.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\EntityFramework.xml
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\obj\Debug\BigBoxFramework.Core.csprojAssemblyReference.cache
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\obj\Debug\BigBoxFramework.Core.csproj.CoreCompileInputs.cache
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\obj\Debug\BigBoxFramework.Core.csproj.CopyComplete
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\obj\Debug\BigBoxFramework.Core.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\obj\Debug\BigBoxFramework.Core.pdb

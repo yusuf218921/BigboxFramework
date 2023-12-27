@@ -1,0 +1,17 @@
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\BigBoxFramework.Northwind.DataAccess.dll.config
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\BigBoxFramework.Northwind.DataAccess.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\BigBoxFramework.Northwind.DataAccess.pdb
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\BigBoxFramework.Core.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\BigBoxFramework.Northwind.Entities.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\BigBoxFramework.Core.pdb
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\BigBoxFramework.Core.dll.config
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\BigBoxFramework.Northwind.Entities.pdb
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\obj\Debug\BigBoxFramework.Northwind.DataAccess.csprojAssemblyReference.cache
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\obj\Debug\BigBoxFramework.Northwind.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\obj\Debug\BigBoxFramework.Northwind.DataAccess.csproj.CopyComplete
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\obj\Debug\BigBoxFramework.Northwind.DataAccess.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.DataAccess\obj\Debug\BigBoxFramework.Northwind.DataAccess.pdb

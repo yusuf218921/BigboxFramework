@@ -1,0 +1,6 @@
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\bin\Debug\BigBoxFramework.Northwind.Business.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\bin\Debug\BigBoxFramework.Northwind.Business.pdb
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\obj\Debug\BigBoxFramework.Northwind.Business.csprojAssemblyReference.cache
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\obj\Debug\BigBoxFramework.Northwind.Business.csproj.CoreCompileInputs.cache
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\obj\Debug\BigBoxFramework.Northwind.Business.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\obj\Debug\BigBoxFramework.Northwind.Business.pdb
