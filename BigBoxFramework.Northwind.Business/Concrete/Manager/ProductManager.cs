@@ -9,12 +9,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BigBoxFramework.Core.DataAccess;
 
 namespace BigBoxFramework.Northwind.Business.Concrete.Manager
 {
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
+        private IQueryableReposity<Product> _queryable;
 
         public ProductManager(IProductDal productDal)
         {
