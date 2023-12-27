@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBoxFramework.Northwind.WebApi", "BigBoxFramework.Northwind.WebApi\BigBoxFramework.Northwind.WebApi.csproj", "{6253A1C8-56B7-47B1-9FB6-9F96881AF647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigboxFramework.Northwind.WcfService", "WcfService1\BigboxFramework.Northwind.WcfService.csproj", "{F336E442-1BA1-43C2-BF98-3FA93BF68737}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,10 +63,6 @@ Global
 		{6253A1C8-56B7-47B1-9FB6-9F96881AF647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6253A1C8-56B7-47B1-9FB6-9F96881AF647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6253A1C8-56B7-47B1-9FB6-9F96881AF647}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F336E442-1BA1-43C2-BF98-3FA93BF68737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F336E442-1BA1-43C2-BF98-3FA93BF68737}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F336E442-1BA1-43C2-BF98-3FA93BF68737}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F336E442-1BA1-43C2-BF98-3FA93BF68737}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

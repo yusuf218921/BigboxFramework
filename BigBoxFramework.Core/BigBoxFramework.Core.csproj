@@ -48,6 +48,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,12 +58,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aspects\PostSharp\CacheAspect.cs" />
+    <Compile Include="Aspects\PostSharp\CacheRemoveAspect.cs" />
     <Compile Include="Aspects\PostSharp\FluentValidationAspect.cs" />
+    <Compile Include="Aspects\PostSharp\TransactipnScopeAspect.cs" />
+    <Compile Include="CrossCuttingConcerns\Caching\ICacheManager.cs" />
+    <Compile Include="CrossCuttingConcerns\Caching\Microsoft\MemoryCacheManager.cs" />
     <Compile Include="CrossCuttingConcerns\Validation\FluentValidation\ValidatorTool.cs" />
     <Compile Include="DataAccess\EntityRepository\EfEntityRepositoryBase.cs" />
     <Compile Include="DataAccess\EntityRepository\EfQueryableRepository.cs" />
     <Compile Include="DataAccess\IEntityRepository.cs" />
-    <Compile Include="DataAccess\IQuerableReposity.cs" />
+    <Compile Include="DataAccess\IQueryableReposity.cs" />
     <Compile Include="Entities\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

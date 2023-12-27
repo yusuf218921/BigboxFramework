@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BigBoxFramework.Core.DataAccess;
+using BigBoxFramework.Core.CrossCuttingConcerns.Caching.Microsoft;
 
 namespace BigBoxFramework.Northwind.Business.Concrete.Manager
 {
@@ -23,12 +24,13 @@ namespace BigBoxFramework.Northwind.Business.Concrete.Manager
             _productDal = productDal;
         }
         [FluentValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect(typeof(MemoryCacheManager))]
         public Product Add(Product product)
         {
             ValidatorTool.FluentValidate(new ProductValidator(), product);
             return _productDal.Add(product);
         }
-
+        [CacheAspect(typeof(MemoryCacheManager), 120)]
         public List<Product> GetAll()
         {
             return _productDal.GetList();
@@ -47,6 +49,7 @@ namespace BigBoxFramework.Northwind.Business.Concrete.Manager
         }
 
         [FluentValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect(typeof(MemoryCacheManager))]
         public Product Update(Product product)
         {
             ValidatorTool.FluentValidate(new ProductValidator(), product);
