@@ -48,8 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
+    <Compile Include="Concrete\EntityRepository\EfCategoryDal.cs" />
     <Compile Include="Concrete\EntityRepository\EfProductDal.cs" />
+    <Compile Include="Concrete\EntityRepository\Mapping\CategoryMap.cs" />
     <Compile Include="Concrete\EntityRepository\Mapping\ProductMap.cs" />
     <Compile Include="Concrete\EntityRepository\NorthwindContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

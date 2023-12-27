@@ -16,6 +16,7 @@ namespace BigBoxFramework.Northwind.DataAccess.Concrete.EntityRepository
             Database.SetInitializer<NorthwindContext>(null);
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

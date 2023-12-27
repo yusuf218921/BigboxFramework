@@ -17,13 +17,8 @@ namespace BigBoxFramework.Northwind.DataAccess.Concrete.EntityRepository.Mapping
 
             Property(x => x.ProductID).HasColumnName("ProductID");
             Property(x => x.CategoryId).HasColumnName("CategoryID");
-            Property(x => x.SupplierID).HasColumnName("SupplierID");
             Property(x => x.UnitPrice).HasColumnName("UnitPrice");
-            Property(x => x.QuantityPerUnit).HasColumnName("QuantityPerUnit");
-            Property(x => x.Discontinued).HasColumnName("Discontinued");
             Property(x => x.UnitsInStock).HasColumnName("UnitsInStock");
-            Property(x => x.UnitsOnOrder).HasColumnName("UnitsOnOrder");
-            Property(x => x.ReorderLevel).HasColumnName("ReorderLevel");
             Property(x => x.ProductName).HasColumnName("ProductName");
         }
     }
