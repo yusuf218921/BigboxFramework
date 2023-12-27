@@ -38,6 +38,14 @@ namespace BigBoxFramework.Northwind.Business.Concrete.Manager
         {
             return _productDal.Get(p => p.ProductID == id);
         }
+        [TransactipnScopeAspect]
+        public void TransactionalOperation(Product product1, Product product2)
+        {
+            _productDal.Add(product1);
+            //
+            _productDal.Update(product2);
+        }
+
         [FluentValidationAspect(typeof(ProductValidator))]
         public Product Update(Product product)
         {
