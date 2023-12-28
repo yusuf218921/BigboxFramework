@@ -11,6 +11,8 @@ using System.Text;
 using System.Threading.Tasks;
 using BigBoxFramework.Core.DataAccess;
 using BigBoxFramework.Core.CrossCuttingConcerns.Caching.Microsoft;
+using BigBoxFramework.Core.Aspects.PostSharp.Logging;
+using System.Data.Entity.Infrastructure.Interception;
 
 namespace BigBoxFramework.Northwind.Business.Concrete.Manager
 {
@@ -23,6 +25,7 @@ namespace BigBoxFramework.Northwind.Business.Concrete.Manager
         {
             _productDal = productDal;
         }
+        [LogAspect(typeof(DatabaseLogger))]
         [FluentValidationAspect(typeof(ProductValidator))]
         [CacheRemoveAspect(typeof(MemoryCacheManager))]
         public Product Add(Product product)

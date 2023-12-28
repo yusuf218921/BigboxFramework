@@ -34,3 +34,7 @@ C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\
 C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\zh-CN\FluentValidation.resources.dll
 C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\BigBoxFramework.Core.pssym
 C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\obj\Debug\BigBoxFramework.Core.dll.postsharp
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\log4net.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\log4net.xml
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Core\bin\Debug\Newtonsoft.Json.xml

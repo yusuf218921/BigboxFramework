@@ -52,3 +52,6 @@ C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Busin
 C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business.Tests\bin\Debug\BigBoxFramework.Core.pdb
 C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business.Tests\bin\Debug\BigBoxFramework.Core.dll.config
 C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business.Tests\bin\Debug\Ninject.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business.Tests\bin\Debug\BigBoxFramework.Northwind.Business.dll.config
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business.Tests\bin\Debug\Ninject.xml

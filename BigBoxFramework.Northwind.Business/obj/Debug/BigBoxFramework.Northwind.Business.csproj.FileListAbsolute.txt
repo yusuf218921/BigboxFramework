@@ -39,3 +39,8 @@ C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Busin
 C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\obj\Debug\BigBoxFramework.Northwind.Business.csproj.CopyComplete
 C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\bin\Debug\BigBoxFramework.Northwind.Business.pssym
 C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\obj\Debug\BigBoxFramework.Northwind.Business.dll.postsharp
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\bin\Debug\BigBoxFramework.Northwind.Business.dll.config
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\bin\Debug\Ninject.dll
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nemarin\Desktop\Project\BigboxFramework\BigBoxFramework.Northwind.Business\bin\Debug\Ninject.xml

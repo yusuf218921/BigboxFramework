@@ -1,19 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols LinesOfCode="31" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+<Symbols LinesOfCode="45" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.FluentValidationAspect">
-    <Instance Declaration="#2=M:[BigBoxFramework.Northwind.Business]BigBoxFramework.Northwind.Business.Concrete.Manager.ProductManager::Add(BigBoxFramework.Northwind.Entities.Concrete.Product)" Id="5ebf827621b3da3">
+    <Instance Declaration="#2=M:[BigBoxFramework.Northwind.Business]BigBoxFramework.Northwind.Business.Concrete.Manager.ProductManager::Add(BigBoxFramework.Northwind.Entities.Concrete.Product)" Id="5ebf827467749c4">
       <Target>
-        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="0" />
+        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" />
       </Target>
     </Instance>
-    <Instance Declaration="#4=M:[BigBoxFramework.Northwind.Business]BigBoxFramework.Northwind.Business.Concrete.Manager.ProductManager::Update(BigBoxFramework.Northwind.Entities.Concrete.Product)" Id="5ebf82719cec141">
+    <Instance Declaration="#4=M:[BigBoxFramework.Northwind.Business]BigBoxFramework.Northwind.Business.Concrete.Manager.ProductManager::Update(BigBoxFramework.Northwind.Entities.Concrete.Product)" Id="5ebf8277b44e79e">
       <Target>
-        <JoinPoint Advising="#1" Description="#3" />
+        <JoinPoint Advising="#1" Description="#3" Ordinal="5" />
       </Target>
     </Instance>
   </Class>
-  <Annotation Target="#5=M:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6=2" Description="#7=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
-  <Annotation Target="#8=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnSuccess([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6" Description="#7" />
-  <Annotation Target="#9=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnExit([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6" Description="#7" />
-  <Annotation Target="#10=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnException([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#6" Description="#7" />
+  <Class Class="#5=T:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.CacheRemoveAspect">
+    <Instance Declaration="#2" Id="5ebf827f32c1deb">
+      <Target>
+        <JoinPoint Advising="#5" Description="#3" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4" Id="5ebf827f4c0d125">
+      <Target>
+        <JoinPoint Advising="#5" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#6=T:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.TransactipnScopeAspect">
+    <Instance Declaration="#7=M:[BigBoxFramework.Northwind.Business]BigBoxFramework.Northwind.Business.Concrete.Manager.ProductManager::TransactionalOperation(BigBoxFramework.Northwind.Entities.Concrete.Product, BigBoxFramework.Northwind.Entities.Concrete.Product)" Id="5ebf82742fb5eba">
+      <Target>
+        <JoinPoint Advising="#6" Description="#3" Ordinal="3" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#8=T:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.CacheAspect">
+    <Instance Declaration="#9=M:[BigBoxFramework.Northwind.Business]BigBoxFramework.Northwind.Business.Concrete.Manager.ProductManager::GetAll()" Id="5ebf8276ebca0f5">
+      <Target>
+        <JoinPoint Advising="#8" Description="#10=Intercepted by OnInvoke" Ordinal="2" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#11=M:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12=2" Description="#13=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#14=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnSuccess([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#15=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnExit([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#16=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnException([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#17=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnEntry([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#18=M:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.CacheRemoveAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#19=M:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.TransactipnScopeAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#20=M:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.TransactipnScopeAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
+  <Annotation Target="#21=M:[BigBoxFramework.Core]BigBoxFramework.Core.Aspects.PostSharp.TransactipnScopeAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#12" Description="#13" />
 </Symbols>
